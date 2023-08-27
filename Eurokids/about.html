@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>preschool website</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index2.html"><img src="images/homeLogo (1).png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times-circle" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">PROGRAMS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+    <h1>About Us</h1>
+
+</section>
+
+<!---------about us content--------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Why you choose us?</h1>
+            <p>Most parents wonder ’Which is the best kids nursery school near me? ‘How safe and hygienic is the play school near me for kids? EuroKids playschool with its “Child First” philosophy and a new-age Mindful Curriculum, emphasizes that the child will Play, Learn and Grow to imbibe essential life skills through exploration and discovery. Integrated use of scientifically designed games, toys and technology in our Pre-School curriculum makes learning fun and engaging for children. Our emphasis on the child’s well-being and development, in close coordination with parents, makes EuroKids playgroup, one of the best pre-schools in the country.<br><br>
+                At EuroKids playgroup, we are redefining early child care education for over 20 years with focus on providing a fun-based learning environment. Our ‘Child-First’ ideology at the core of our pedagogy enables us to ensure your child’s development, safety and engagement needs are met in a home like environment. This 360-degree engagement makes<strong> Kindergarten Your Child’s Second Home!</strong></p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/campus.png">
+        </div>
+    </div>
+</section>
+
+<!---------------Footer-------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>At EuroKids playgroup, we are redefining early child care education for over 20 years with focus on providing a fun-based learning environment.<br> Our ‘Child-First’ ideology at the core of our pedagogy enables us to ensure your child’s development, safety and engagement needs are met in a home like environment.</p>
+<div class="icons">
+    <a href="https://www.facebook.com/Eurokids22"><i class="fa fa-facebook" ></i></a>
+    <a href="https://www.instagram.com/eurokids90/"><i class="fa fa-instagram" ></i></a>
+    <a href="#"><i class="fa fa-twitter" ></i></a>
+    <a href="#"><i class="fa fa-linkedin" ></i></a>
+</div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Lakshya Chaudhary</p>
+</section>
+
+
+
+
+<!-------------javascript for toggle menu------------->
+<script>
+    var navlinks = document.getElementById("navlinks");
+
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>
+    
+</body>
+</html>
